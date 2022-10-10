@@ -169,6 +169,18 @@ def plot_groups(mean_groups, std_groups, pvalues_dict, title = None):
     plt.close()
 
 
+def hist_plot(arr, labels) :
+    plt.figure(figsize=(10,6))
+    n = arr.shape[0]
+    k = math.ceil(math.sqrt(n))
+    colors = ['red', 'blue', 'green', 'orange', 'yellow']
+    for i in range(n):
+        plt.subplot(k,k,i+1)
+        sns.histplot(x = arr[i], color = colors[i], bins = 20, cbar='bright')
+        plt.title(labels[i])
+    plt.show()
+
+
 # def kde_plot(arr, labels) :
 #     colors = ['red', 'blue', 'green', 'orange', 'yellow']
 #     for i in range(arr.shape[0]):
@@ -185,11 +197,11 @@ def get_groups_dfnc(dfnc_corrs, groups, n_states, mode = 'all'):
     Parameters 
     -----------------------------
     dfnc_corrs : <arr>, Shape : (n_subjects, 1378, n_states) 
-            This array contains the centroids of all n_states per subject. 
+            This array contains the medians of all windows per subject per state. 
             Here 1378 represents the number of distinct correlations between components. (53C2)
     
     groups : <dict>, format = {group_name : group_indices (Indices starts from zero)}
-                Path to save the plot
+                Dictionary with group name and its indices
 
     n_states : <int>, 
                 Number of states
@@ -204,10 +216,10 @@ def get_groups_dfnc(dfnc_corrs, groups, n_states, mode = 'all'):
                 state = <int> , State number
                 group = <str>, Group Name 
                 array = <arr>, Shape : (n_subjects per group, 1378)
-                    Centroids per subject per group per state 
+                    Median of windows per subject per group per state 
     """
 
-    group_names = list(groups.keys())
+    group_names = list(groups.keys())       # Group names 
     n_groups = len(groups)
     dfnc_dict = {}
 
@@ -223,10 +235,11 @@ def get_groups_dfnc(dfnc_corrs, groups, n_states, mode = 'all'):
         for group in group_names : 
             temp = []
             indices = groups[group]
+             # Checking whether the states occured in that subject or not
             for index in indices:
-                if(~np.isnan(dfnc_corrs[index, :, state]).all()):
-                    temp.append(dfnc_corrs[index, :, state])
-            temp = np.array(temp, dtype = 'float64')
+                if(~np.isnan(dfnc_corrs[index, :, state]).all()):   
+                    temp.append(dfnc_corrs[index, :, state])    # 1378 size array
+            temp = np.array(temp, dtype = 'float64')  # Shape : (n_subjects in group, 1378)
             dfnc_dict[state][group] = temp
             print(f'Group : {group} and DFNC shape : {temp.shape}')
         print('------------------------------------------------')
@@ -329,13 +342,15 @@ def gather_occurences(group, state):
     number_of_occurences_per_subject : <arr>, Shape : (len(group), )
             Number of occurences of this particular state per subject 
     """
-    number_of_occurences_per_subject = {}
+    number_of_occurences_per_subject = []
     for i in range(group.shape[1]):
         each_asd_subject = group[:, i]
-        mask = each_asd_subject == (state +1)
-        count = len(each_asd_subject[mask])
+        mask = each_asd_subject == (state +1)   
+        # The states stored in matlab are [1,2,3,4] (index starts with 1)
+        count = len(each_asd_subject[mask])      
         if count > 0:
-            number_of_occurences_per_subject[i] = count
+            number_of_occurences_per_subject.append(count)
+    number_of_occurences_per_subject = np.array(number_of_occurences_per_subject, dtype = 'float32')
     return number_of_occurences_per_subject
 
 def get_poc(file_path, groups, n_states, n_windows_per_sub):
@@ -376,9 +391,9 @@ def get_poc(file_path, groups, n_states, n_windows_per_sub):
     temp = np.array(temp, dtype = 'uint32')
     temp = np.squeeze(temp, 1)
     print('States array shape : ', temp.shape)
-    print('States values : ', np.unique(temp))
+    print('States values : ', np.unique(temp))   # These are states stored in mat files
 
-    states = np.array(range(n_states))
+    states = np.array(range(n_states))          # States which we are initializing[0,1,2,3]
 
     pvalues = {}
     main_dict = {}
@@ -390,7 +405,7 @@ def get_poc(file_path, groups, n_states, n_windows_per_sub):
         main_dict[state] = {}
         for group in group_names:     
             occurences_per_state = gather_occurences(temp[ : ,groups[group]], state)
-            main_dict[state][group] = np.array(list(occurences_per_state))/n_windows_per_sub * 100
+            main_dict[state][group] = occurences_per_state/n_windows_per_sub * 100
         
         if(n_groups == 2):
             group1 = np.array(list(main_dict[state][group_names[0]]))
@@ -471,7 +486,7 @@ def plot_poc(poc_dict, pvalues_dict, save_path = None):
     positions = [-0.5, -0.25, 0, 0.25, 0.5]
     for group in range(n_groups):
         ax.bar(states - positions[group], mean_groups[group],
-            yerr=std_groups[group], color=colors[group], label=group_names[group], width = 0.25)
+            yerr = std_groups[group], color=colors[group], label=group_names[group], width = 0.25)
 
     plt.xticks([r - 0.15 for r in states], states + 1)
   
