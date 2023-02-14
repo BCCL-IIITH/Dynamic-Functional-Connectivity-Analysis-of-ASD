@@ -1,0 +1,188 @@
+,Connectivity_Index,P_values,ADOS_Correlation,ROI_1_Index,ROI_2_Index,ROI_1_Name,ROI_2_Name
+176,1323,0.005428959,-0.31495157,43,44,Precuneus (43),Precuneus (44)
+178,1328,0.026523316,-0.26340932,43,49,Precuneus (43),"Posterior cingulate cortex ([PCC], 49)"
+103,967,0.013457352,-0.262553,24,49,"Lingual gyrus ([LingualG], 24)","Posterior cingulate cortex ([PCC], 49)"
+120,1069,0.0035028155,-0.22801903,28,45,"Superior medial frontal gyrus ([SMFG], 28)","Anterior cingulate cortex ([ACC], 45)"
+112,1004,0.02189244,-0.20038794,26,31,"Inferior parietal lobule ([IPL], 26)","Middle frontal gyrus ([MiFG], 31)"
+73,643,0.0008245373,-0.19401357,15,22,"Superior parietal lobule ([SPL], 15)",Fusiform gyrus (22)
+90,773,0.014767722,-0.1777969,18,44,"Middle occipital gyrus ([MOG], 18)",Precuneus (44)
+159,1220,0.0006596395,-0.16043493,35,49,"Superior frontal gyrus ([SFG], 35)","Posterior cingulate cortex ([PCC], 49)"
+78,676,0.020169314,-0.16025947,16,18,"Postcentral gyrus ([PoCG], 16)","Middle occipital gyrus ([MOG], 18)"
+97,893,0.0016453767,-0.15488614,22,34,Fusiform gyrus (22),"Supplementary motor area ([SMA], 34)"
+162,1233,0.0043366794,-0.15383859,36,45,"Middle frontal gyrus ([MiFG], 36)","Anterior cingulate cortex ([ACC], 45)"
+169,1284,0.03156807,-0.14860934,39,51,"Middle cingulate cortex ([MCC], 39)","Cerebellum ([CB], 51)"
+180,1336,0.0013540427,-0.14785504,44,48,Precuneus (44),Precuneus (48)
+185,1345,7.1255636e-05,-0.1445271,45,49,"Anterior cingulate cortex ([ACC], 45)","Posterior cingulate cortex ([PCC], 49)"
+91,778,0.0033943753,-0.14357707,18,49,"Middle occipital gyrus ([MOG], 18)","Posterior cingulate cortex ([PCC], 49)"
+177,1324,0.0032365865,-0.14335066,43,45,Precuneus (43),"Anterior cingulate cortex ([ACC], 45)"
+184,1344,0.045762677,-0.14167814,45,48,"Anterior cingulate cortex ([ACC], 45)",Precuneus (48)
+173,1293,0.02512553,-0.13973051,40,47,"Inferior frontal gyrus ([IFG], 40)","Anterior cingulate cortex ([ACC], 47)"
+139,1159,0.008276806,-0.13910998,32,45,"Inferior parietal lobule ([IPL], 32)","Anterior cingulate cortex ([ACC], 45)"
+102,962,0.026472256,-0.13781026,24,44,"Lingual gyrus ([LingualG], 24)",Precuneus (44)
+167,1277,0.0032235323,-0.12916707,39,44,"Middle cingulate cortex ([MCC], 39)",Precuneus (44)
+146,1178,0.0055307476,-0.12058705,33,44,"Left inferior parietal lobue ([R IPL], 33)",Precuneus (44)
+46,388,0.016880961,-0.119973056,9,10,"Left postcentral gyrus ([L PoCG], 9)","Paracentral lobule ([ParaCL], 10)"
+67,627,0.018860418,-0.117014766,14,44,"Precentral gyrus ([PreCG], 14)",Precuneus (44)
+157,1216,0.00021902863,-0.116894476,35,45,"Superior frontal gyrus ([SFG], 35)","Anterior cingulate cortex ([ACC], 45)"
+19,140,0.022616819,-0.11179933,3,41,Putamen (3),"Middle frontal gyrus ([MiFG], 41)"
+121,1070,0.022321185,-0.10929963,28,46,"Superior medial frontal gyrus ([SMFG], 28)","Posterior cingulate cortex ([PCC], 46)"
+4,49,0.0049383575,-0.10432326,1,51,Caudate (1),"Cerebellum ([CB], 51)"
+53,471,0.0044671767,-0.10405372,10,50,"Paracentral lobule ([ParaCL], 10)","Cerebellum ([CB], 50)"
+77,658,0.004943681,-0.1040407,15,37,"Superior parietal lobule ([SPL], 15)","Hippocampus ([HiPP], 37)"
+98,894,0.004206116,-0.10229826,22,35,Fusiform gyrus (22),"Superior frontal gyrus ([SFG], 35)"
+49,432,0.04905803,-0.100284226,10,11,"Paracentral lobule ([ParaCL], 10)","Right postcentral gyrus ([R PoCG], 11)"
+88,762,0.010757167,-0.09686776,18,33,"Middle occipital gyrus ([MOG], 18)","Left inferior parietal lobue ([R IPL], 33)"
+132,1115,0.00070673355,-0.0965247,30,44,"Right inferior frontal gyrus ([R IFG], 30)",Precuneus (44)
+99,907,0.021662299,-0.09645935,22,48,Fusiform gyrus (22),Precuneus (48)
+72,642,0.0044296337,-0.095673345,15,21,"Superior parietal lobule ([SPL], 15)","Right middle occipital gyrus ([R MOG], 21)"
+48,390,0.00065256015,-0.09480793,9,12,"Left postcentral gyrus ([L PoCG], 9)","Superior parietal lobule ([SPL], 12)"
+108,983,0.0013156764,-0.09444293,25,37,"Middle temporal gyrus ([MTG], 25)","Hippocampus ([HiPP], 37)"
+89,772,0.024108987,-0.09101217,18,43,"Middle occipital gyrus ([MOG], 18)",Precuneus (43)
+152,1185,0.013465221,-0.08614026,33,51,"Left inferior parietal lobue ([R IPL], 33)","Cerebellum ([CB], 51)"
+74,646,0.00021547294,-0.08613008,15,25,"Superior parietal lobule ([SPL], 15)","Middle temporal gyrus ([MTG], 25)"
+82,714,0.005483618,-0.08352631,17,20,"Calcarine gyrus ([CalcarineG], 17)",Cuneus (20)
+27,196,0.019052168,-0.08313568,4,48,Caudate (4),Precuneus (48)
+186,1363,0.013470525,-0.07996999,48,49,Precuneus (48),"Posterior cingulate cortex ([PCC], 49)"
+68,628,0.008413788,-0.07605848,14,45,"Precentral gyrus ([PreCG], 14)","Anterior cingulate cortex ([ACC], 45)"
+130,1110,0.013780653,-0.07588434,30,39,"Right inferior frontal gyrus ([R IFG], 30)","Middle cingulate cortex ([MCC], 39)"
+2,32,0.04352292,-0.07454994,1,34,Caudate (1),"Supplementary motor area ([SMA], 34)"
+124,1087,0.01792748,-0.07440152,29,39,"Inferior frontal gyrus ([IFG], 29)","Middle cingulate cortex ([MCC], 39)"
+160,1222,0.01704003,-0.07384486,35,51,"Superior frontal gyrus ([SFG], 35)","Cerebellum ([CB], 51)"
+41,346,0.031638138,-0.07086781,8,12,"Postcentral gyrus ([PoCG], 8)","Superior parietal lobule ([SPL], 12)"
+163,1236,0.023477873,-0.0704242,36,48,"Middle frontal gyrus ([MiFG], 36)",Precuneus (48)
+150,1183,0.045418072,-0.0695153,33,49,"Left inferior parietal lobue ([R IPL], 33)","Posterior cingulate cortex ([PCC], 49)"
+85,726,0.041126028,-0.066317454,17,32,"Calcarine gyrus ([CalcarineG], 17)","Inferior parietal lobule ([IPL], 32)"
+50,433,0.043895733,-0.061071735,10,12,"Paracentral lobule ([ParaCL], 10)","Superior parietal lobule ([SPL], 12)"
+47,389,0.03859918,-0.06017721,9,11,"Left postcentral gyrus ([L PoCG], 9)","Right postcentral gyrus ([R PoCG], 11)"
+18,136,0.0053120796,-0.059627227,3,37,Putamen (3),"Hippocampus ([HiPP], 37)"
+170,1287,0.014301655,-0.05519482,40,41,"Inferior frontal gyrus ([IFG], 40)","Middle frontal gyrus ([MiFG], 41)"
+83,718,0.02432888,-0.05294378,17,24,"Calcarine gyrus ([CalcarineG], 17)","Lingual gyrus ([LingualG], 24)"
+3,46,0.021492586,-0.048964016,1,48,Caudate (1),Precuneus (48)
+114,1019,0.031578895,-0.047494676,26,46,"Inferior parietal lobule ([IPL], 26)","Posterior cingulate cortex ([PCC], 46)"
+25,187,0.0125733,-0.043879796,4,39,Caudate (4),"Middle cingulate cortex ([MCC], 39)"
+81,712,0.009715861,-0.043155216,17,18,"Calcarine gyrus ([CalcarineG], 17)","Middle occipital gyrus ([MOG], 18)"
+117,1044,0.045666218,-0.04300334,27,45,Insula (27),"Anterior cingulate cortex ([ACC], 45)"
+65,618,0.0010927557,-0.041565504,14,35,"Precentral gyrus ([PreCG], 14)","Superior frontal gyrus ([SFG], 35)"
+29,202,0.008634385,-0.040960465,5,6,Thalamus (5),"Superior temporal gyrus ([STG], 6)"
+179,1333,4.8221493e-05,-0.039474163,44,45,Precuneus (44),"Anterior cingulate cortex ([ACC], 45)"
+52,447,0.0200796,-0.037855152,10,26,"Paracentral lobule ([ParaCL], 10)","Inferior parietal lobule ([IPL], 26)"
+8,83,0.009782173,-0.03651821,2,34,Subthalamus/hypothalamus (2),"Supplementary motor area ([SMA], 34)"
+156,1215,0.00047068438,-0.035445254,35,44,"Superior frontal gyrus ([SFG], 35)",Precuneus (44)
+24,185,0.000113127346,-0.03381909,4,37,Caudate (4),"Hippocampus ([HiPP], 37)"
+147,1179,0.006785631,-0.032874655,33,45,"Left inferior parietal lobue ([R IPL], 33)","Anterior cingulate cortex ([ACC], 45)"
+7,75,0.01770243,-0.031970378,2,26,Subthalamus/hypothalamus (2),"Inferior parietal lobule ([IPL], 26)"
+70,632,0.032862794,-0.031859774,14,49,"Precentral gyrus ([PreCG], 14)","Posterior cingulate cortex ([PCC], 49)"
+105,978,0.02447734,-0.029535875,25,32,"Middle temporal gyrus ([MTG], 25)","Inferior parietal lobule ([IPL], 32)"
+171,1290,0.042557735,-0.029091028,40,44,"Inferior frontal gyrus ([IFG], 40)",Precuneus (44)
+1,25,0.04413835,-0.028166989,1,27,Caudate (1),Insula (27)
+104,972,0.0057189786,-0.026852492,25,26,"Middle temporal gyrus ([MTG], 25)","Inferior parietal lobule ([IPL], 26)"
+154,1207,0.03209203,-0.026818667,35,36,"Superior frontal gyrus ([SFG], 35)","Middle frontal gyrus ([MiFG], 36)"
+131,1111,0.028590133,-0.025792383,30,40,"Right inferior frontal gyrus ([R IFG], 30)","Inferior frontal gyrus ([IFG], 40)"
+145,1177,0.028388707,-0.024569044,33,43,"Left inferior parietal lobue ([R IPL], 33)",Precuneus (43)
+101,956,0.018531727,-0.02453877,24,38,"Lingual gyrus ([LingualG], 24)","Left inferior parietal lobule ([L IPL], 38)"
+153,1192,0.0135685,-0.024054844,34,39,"Supplementary motor area ([SMA], 34)","Middle cingulate cortex ([MCC], 39)"
+133,1120,0.007946707,-0.023590945,30,49,"Right inferior frontal gyrus ([R IFG], 30)","Posterior cingulate cortex ([PCC], 49)"
+35,291,0.00824743,-0.022588372,6,48,"Superior temporal gyrus ([STG], 6)",Precuneus (48)
+45,384,0.044521835,-0.020709889,8,50,"Postcentral gyrus ([PoCG], 8)","Cerebellum ([CB], 50)"
+113,1013,0.017361362,-0.020570721,26,40,"Inferior parietal lobule ([IPL], 26)","Inferior frontal gyrus ([IFG], 40)"
+181,1337,0.008492973,-0.020121628,44,49,Precuneus (44),"Posterior cingulate cortex ([PCC], 49)"
+44,377,0.023814658,-0.015954643,8,43,"Postcentral gyrus ([PoCG], 8)",Precuneus (43)
+168,1280,0.008466074,-0.014949649,39,47,"Middle cingulate cortex ([MCC], 39)","Anterior cingulate cortex ([ACC], 47)"
+126,1103,0.009797254,-0.014039534,30,32,"Right inferior frontal gyrus ([R IFG], 30)","Inferior parietal lobule ([IPL], 32)"
+26,189,0.002677579,-0.013476571,4,41,Caudate (4),"Middle frontal gyrus ([MiFG], 41)"
+155,1211,0.042778566,-0.012380145,35,40,"Superior frontal gyrus ([SFG], 35)","Inferior frontal gyrus ([IFG], 40)"
+23,166,0.025919028,-0.011991352,4,18,Caudate (4),"Middle occipital gyrus ([MOG], 18)"
+33,261,0.0035626676,-0.009422062,6,18,"Superior temporal gyrus ([STG], 6)","Middle occipital gyrus ([MOG], 18)"
+9,89,0.02332658,-0.007998097,2,40,Subthalamus/hypothalamus (2),"Inferior frontal gyrus ([IFG], 40)"
+116,1038,0.0015006051,-0.0076431623,27,39,Insula (27),"Middle cingulate cortex ([MCC], 39)"
+115,1025,0.036208794,-0.007348441,26,52,"Inferior parietal lobule ([IPL], 26)","Cerebellum ([CB], 52)"
+32,230,0.017281894,-0.0071753925,5,34,Thalamus (5),"Supplementary motor area ([SMA], 34)"
+107,981,0.005879291,-0.0066861603,25,35,"Middle temporal gyrus ([MTG], 25)","Superior frontal gyrus ([SFG], 35)"
+128,1107,0.009022925,-0.0065753656,30,36,"Right inferior frontal gyrus ([R IFG], 30)","Middle frontal gyrus ([MiFG], 36)"
+22,158,0.0041663125,-0.0061052665,4,10,Caudate (4),"Paracentral lobule ([ParaCL], 10)"
+54,481,0.0043533477,-0.0040172352,11,18,"Right postcentral gyrus ([R PoCG], 11)","Middle occipital gyrus ([MOG], 18)"
+75,650,0.03421114,-0.0036477377,15,29,"Superior parietal lobule ([SPL], 15)","Inferior frontal gyrus ([IFG], 29)"
+31,219,0.022115067,0.00047346225,5,23,Thalamus (5),"Inferior occipital gyrus ([IOG], 23)"
+15,117,0.023825822,0.0023795117,3,18,Putamen (3),"Middle occipital gyrus ([MOG], 18)"
+69,629,0.013350423,0.0032937273,14,46,"Precentral gyrus ([PreCG], 14)","Posterior cingulate cortex ([PCC], 46)"
+118,1047,0.008026126,0.0056563704,27,48,Insula (27),Precuneus (48)
+174,1294,0.03226891,0.0063640303,40,48,"Inferior frontal gyrus ([IFG], 40)",Precuneus (48)
+100,951,0.009583763,0.006397299,24,33,"Lingual gyrus ([LingualG], 24)","Left inferior parietal lobue ([R IPL], 33)"
+11,105,0.023803392,0.01345101,3,6,Putamen (3),"Superior temporal gyrus ([STG], 6)"
+142,1166,0.0057978374,0.016029906,32,52,"Inferior parietal lobule ([IPL], 32)","Cerebellum ([CB], 52)"
+134,1128,0.04604583,0.01646873,31,35,"Middle frontal gyrus ([MiFG], 31)","Superior frontal gyrus ([SFG], 35)"
+13,110,0.029348468,0.01805467,3,11,Putamen (3),"Right postcentral gyrus ([R PoCG], 11)"
+136,1149,0.004126532,0.020080406,32,35,"Inferior parietal lobule ([IPL], 32)","Superior frontal gyrus ([SFG], 35)"
+40,337,0.033629164,0.020989537,7,48,"Middle temporal gyrus ([MTG], 7)",Precuneus (48)
+55,487,0.03829588,0.021584362,11,24,"Right postcentral gyrus ([R PoCG], 11)","Lingual gyrus ([LingualG], 24)"
+51,446,0.023600971,0.021669995,10,25,"Paracentral lobule ([ParaCL], 10)","Middle temporal gyrus ([MTG], 25)"
+80,706,0.028841125,0.022029502,16,48,"Postcentral gyrus ([PoCG], 16)",Precuneus (48)
+66,619,0.015665838,0.022426002,14,36,"Precentral gyrus ([PreCG], 14)","Middle frontal gyrus ([MiFG], 36)"
+71,637,0.021389022,0.022923687,15,16,"Superior parietal lobule ([SPL], 15)","Postcentral gyrus ([PoCG], 16)"
+141,1164,0.008802096,0.023623195,32,50,"Inferior parietal lobule ([IPL], 32)","Cerebellum ([CB], 50)"
+28,199,0.012036793,0.024065776,4,51,Caudate (4),"Cerebellum ([CB], 51)"
+30,206,0.038049337,0.028229408,5,10,Thalamus (5),"Paracentral lobule ([ParaCL], 10)"
+106,980,0.00019372717,0.032912664,25,34,"Middle temporal gyrus ([MTG], 25)","Supplementary motor area ([SMA], 34)"
+14,113,0.049322627,0.03383805,3,14,Putamen (3),"Precentral gyrus ([PreCG], 14)"
+161,1227,0.008438372,0.034293056,36,39,"Middle frontal gyrus ([MiFG], 36)","Middle cingulate cortex ([MCC], 39)"
+123,1085,0.007029104,0.035289686,29,37,"Inferior frontal gyrus ([IFG], 29)","Hippocampus ([HiPP], 37)"
+158,1218,0.02038005,0.03759405,35,47,"Superior frontal gyrus ([SFG], 35)","Anterior cingulate cortex ([ACC], 47)"
+39,328,0.018888677,0.03789709,7,39,"Middle temporal gyrus ([MTG], 7)","Middle cingulate cortex ([MCC], 39)"
+10,97,0.034699555,0.041631393,2,48,Subthalamus/hypothalamus (2),Precuneus (48)
+92,800,0.002360828,0.04286814,19,37,"Middle temporal gyrus ([MTG], 19)","Hippocampus ([HiPP], 37)"
+110,994,0.044326067,0.043678157,25,48,"Middle temporal gyrus ([MTG], 25)",Precuneus (48)
+12,108,0.009878749,0.04424408,3,9,Putamen (3),"Left postcentral gyrus ([L PoCG], 9)"
+79,690,0.045475498,0.046895057,16,32,"Postcentral gyrus ([PoCG], 16)","Inferior parietal lobule ([IPL], 32)"
+0,4,0.026153967,0.047581848,1,6,Caudate (1),"Superior temporal gyrus ([STG], 6)"
+127,1104,0.020178525,0.051651716,30,33,"Right inferior frontal gyrus ([R IFG], 30)","Left inferior parietal lobue ([R IPL], 33)"
+119,1057,0.020675398,0.05224382,28,33,"Superior medial frontal gyrus ([SMFG], 28)","Left inferior parietal lobue ([R IPL], 33)"
+96,889,0.03126014,0.052911304,22,30,Fusiform gyrus (22),"Right inferior frontal gyrus ([R IFG], 30)"
+95,874,0.012017756,0.05460254,21,46,"Right middle occipital gyrus ([R MOG], 21)","Posterior cingulate cortex ([PCC], 46)"
+151,1184,0.0017489587,0.0569571,33,50,"Left inferior parietal lobue ([R IPL], 33)","Cerebellum ([CB], 50)"
+172,1291,0.0034702162,0.05989586,40,45,"Inferior frontal gyrus ([IFG], 40)","Anterior cingulate cortex ([ACC], 45)"
+38,313,0.010516442,0.06049069,7,24,"Middle temporal gyrus ([MTG], 7)","Lingual gyrus ([LingualG], 24)"
+37,309,0.013530896,0.061404433,7,20,"Middle temporal gyrus ([MTG], 7)",Cuneus (20)
+144,1174,0.04614624,0.062168777,33,40,"Left inferior parietal lobue ([R IPL], 33)","Inferior frontal gyrus ([IFG], 40)"
+122,1081,0.026948683,0.067190304,29,33,"Inferior frontal gyrus ([IFG], 29)","Left inferior parietal lobue ([R IPL], 33)"
+175,1296,0.041958295,0.06799455,40,50,"Inferior frontal gyrus ([IFG], 40)","Cerebellum ([CB], 50)"
+129,1108,0.017633593,0.07247865,30,37,"Right inferior frontal gyrus ([R IFG], 30)","Hippocampus ([HiPP], 37)"
+165,1273,0.013429643,0.073611856,39,40,"Middle cingulate cortex ([MCC], 39)","Inferior frontal gyrus ([IFG], 40)"
+183,1343,0.044164505,0.073891155,45,47,"Anterior cingulate cortex ([ACC], 45)","Anterior cingulate cortex ([ACC], 47)"
+164,1247,0.00053503347,0.07396365,37,43,"Hippocampus ([HiPP], 37)",Precuneus (43)
+17,133,0.017302154,0.0758977,3,34,Putamen (3),"Supplementary motor area ([SMA], 34)"
+62,562,0.02035539,0.0760567,13,18,"Paracentral lobule ([ParaCL], 13)","Middle occipital gyrus ([MOG], 18)"
+182,1339,0.015281751,0.08055497,44,51,Precuneus (44),"Cerebellum ([CB], 51)"
+93,821,0.010428938,0.083994865,20,25,Cuneus (20),"Middle temporal gyrus ([MTG], 25)"
+109,989,0.04646439,0.08476783,25,43,"Middle temporal gyrus ([MTG], 25)",Precuneus (43)
+43,370,0.0054929284,0.08556281,8,36,"Postcentral gyrus ([PoCG], 8)","Middle frontal gyrus ([MiFG], 36)"
+34,282,0.0019262262,0.09106873,6,39,"Superior temporal gyrus ([STG], 6)","Middle cingulate cortex ([MCC], 39)"
+5,58,0.0008902394,0.09352183,2,9,Subthalamus/hypothalamus (2),"Left postcentral gyrus ([L PoCG], 9)"
+64,617,0.03653211,0.09553791,14,34,"Precentral gyrus ([PreCG], 14)","Supplementary motor area ([SMA], 34)"
+143,1173,0.023588482,0.09624958,33,39,"Left inferior parietal lobue ([R IPL], 33)","Middle cingulate cortex ([MCC], 39)"
+148,1180,0.028567636,0.09707904,33,46,"Left inferior parietal lobue ([R IPL], 33)","Posterior cingulate cortex ([PCC], 46)"
+57,511,0.047331896,0.103719115,11,48,"Right postcentral gyrus ([R PoCG], 11)",Precuneus (48)
+125,1092,0.049516607,0.106715925,29,44,"Inferior frontal gyrus ([IFG], 29)",Precuneus (44)
+86,745,0.028913798,0.10686745,17,51,"Calcarine gyrus ([CalcarineG], 17)","Cerebellum ([CB], 51)"
+94,851,0.0036616945,0.107048444,21,23,"Right middle occipital gyrus ([R MOG], 21)","Inferior occipital gyrus ([IOG], 23)"
+58,519,0.030594693,0.111060284,12,15,"Superior parietal lobule ([SPL], 12)","Superior parietal lobule ([SPL], 15)"
+87,754,0.035369493,0.11982413,18,25,"Middle occipital gyrus ([MOG], 18)","Middle temporal gyrus ([MTG], 25)"
+138,1157,0.015737377,0.12078627,32,43,"Inferior parietal lobule ([IPL], 32)",Precuneus (43)
+166,1275,0.029580154,0.12408983,39,42,"Middle cingulate cortex ([MCC], 39)","Hippocampus ([HiPP], 42)"
+59,534,0.039093576,0.12649594,12,30,"Superior parietal lobule ([SPL], 12)","Right inferior frontal gyrus ([R IFG], 30)"
+21,157,0.0258165,0.12870139,4,9,Caudate (4),"Left postcentral gyrus ([L PoCG], 9)"
+63,568,0.011942127,0.12891573,13,24,"Paracentral lobule ([ParaCL], 13)","Lingual gyrus ([LingualG], 24)"
+36,307,0.0008239031,0.13163354,7,18,"Middle temporal gyrus ([MTG], 7)","Middle occipital gyrus ([MOG], 18)"
+111,996,0.005507215,0.13328873,25,50,"Middle temporal gyrus ([MTG], 25)","Cerebellum ([CB], 50)"
+135,1147,0.035894636,0.13416074,32,33,"Inferior parietal lobule ([IPL], 32)","Left inferior parietal lobue ([R IPL], 33)"
+149,1182,0.011020895,0.13577203,33,48,"Left inferior parietal lobue ([R IPL], 33)",Precuneus (48)
+16,126,0.013220456,0.1406568,3,27,Putamen (3),Insula (27)
+20,150,0.030518329,0.15071368,3,51,Putamen (3),"Cerebellum ([CB], 51)"
+137,1152,0.026091315,0.15557885,32,38,"Inferior parietal lobule ([IPL], 32)","Left inferior parietal lobule ([L IPL], 38)"
+76,657,0.047763404,0.16445656,15,36,"Superior parietal lobule ([SPL], 15)","Middle frontal gyrus ([MiFG], 36)"
+56,506,0.034589186,0.18057567,11,43,"Right postcentral gyrus ([R PoCG], 11)",Precuneus (43)
+140,1162,0.004990252,0.18191831,32,48,"Inferior parietal lobule ([IPL], 32)",Precuneus (48)
+61,552,0.0112004075,0.19040218,12,48,"Superior parietal lobule ([SPL], 12)",Precuneus (48)
+42,366,0.015471242,0.19975147,8,32,"Postcentral gyrus ([PoCG], 8)","Inferior parietal lobule ([IPL], 32)"
+6,63,0.016981093,0.20183815,2,14,Subthalamus/hypothalamus (2),"Precentral gyrus ([PreCG], 14)"
+60,547,0.0056930254,0.21435283,12,43,"Superior parietal lobule ([SPL], 12)",Precuneus (43)
+84,719,0.017022232,0.21737573,17,25,"Calcarine gyrus ([CalcarineG], 17)","Middle temporal gyrus ([MTG], 25)"
